@@ -42,7 +42,20 @@ body {
   color: #fff;
   font-size: 40px;
   position: relative;
-  top: -70px;
+  top: -50px;
+}
+
+.content {
+  color: #fff;
+  font-size: 26px;
+  position: relative;
+  top: -30px;
+}
+i {
+  color: #9a3535;
+  font-size: 46px;
+  position: relative;
+  top: -45px;
 }
 
 /* container */
@@ -153,4 +166,16 @@ body {
     padding-top: 230px;
   }
 
+  .content {
+    font-size: 20px;
+  }
+
+  .counter-text {
+    top: -70px;
+  }
+
+  i {
+    font-size: 50px;
+    
+  }
 }
