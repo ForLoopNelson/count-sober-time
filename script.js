@@ -13,12 +13,12 @@ document.querySelector('.up-btn').addEventListener('click', () => {
 textField.innerHTML = localStorage.getItem('value')
 })
 
-document.querySelector('.down-btn').addEventListener('click', () => {
-  value--
+// document.querySelector('.down-btn').addEventListener('click', () => {
+//   value--
 
-  localStorage.setItem('value', value)
-textField.innerHTML = localStorage.getItem('value')
-})
+//   localStorage.setItem('value', value)
+// textField.innerHTML = localStorage.getItem('value')
+// })
 
 document.querySelector('.reset-btn').addEventListener('click', () => {
   value = 0
