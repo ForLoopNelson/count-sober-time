@@ -1,3 +1,26 @@
+body {
+  position: relative;
+  background-image: url(img/change1.jpg);
+  background-position: fit;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+/* background: linear-gradient(315deg, #90d5ec 28%, #fc575e 65%); */
+
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  top: -50px;
+
+  flex-direction: column;
+
+}
+
+
+
 .container {
   display: flex;
   justify-content: center;
@@ -7,7 +30,7 @@
   max-width: 400px;
   padding: 50px 20px;
   background-color: aliceblue;
-  box-shadow: rgba(100, 100, 111, 0.2)
+  box-shadow: rgba(36, 36, 44, 0.2)
   0px 7px 29px 0px;
   border-radius: 5px;
 }
