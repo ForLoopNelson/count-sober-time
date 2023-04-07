@@ -1,6 +1,6 @@
 
 
-const messages = ['You can do this', 'It may be hard, but it is worth it!', 'Be kind to yourself', 'One day at a time.', 'No more Booze!!'];
+const messages = ['You can do this', 'It may be hard, but it is worth it!', 'Be kind to yourself', 'One day at a time.', 'No more Booze!!', 'It is never too late to quit.',];
 
 const getQuote = document.querySelector('.new-quote-btn');
 const messageContainer = document.querySelector('.quote-text');
